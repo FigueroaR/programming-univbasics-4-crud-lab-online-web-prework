@@ -1,13 +1,14 @@
 def create_an_empty_array
-  
+  ary = Array.new
 end
-
-def create_an_array
   
+def create_an_array
+  Array.new(4) { Hash.new }
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  arr = []
+  arr.push()
 end
 
 def add_element_to_start_of_array(array, element)
