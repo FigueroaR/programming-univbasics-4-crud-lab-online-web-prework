@@ -19,7 +19,7 @@ def remove_element_from_end_of_array(my_array)
 end
 
 def remove_element_from_start_of_array(my_array)
-  my_array.shift(element)
+  element = my_array.shift()
 end
 
 def retrieve_element_from_index(array, index_number)
